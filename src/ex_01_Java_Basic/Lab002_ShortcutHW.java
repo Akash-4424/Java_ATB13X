@@ -5,7 +5,7 @@ public class Lab002_ShortcutHW {
         System.out.println("Hello i am Fine");
     }
 
-    public static void main(int[] args) {
+    public static void main(int args) {
 
     }
 }
