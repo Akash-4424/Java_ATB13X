@@ -1,0 +1,23 @@
+public class StringOperationsDemo {
+    public static void main(String[] args) {
+        // Declare and initialize strings
+        String str1 = "Hello";
+        String str2 = "World";
+
+        // 1. Concatenation
+        String concatenated = str1 + " " + str2;
+        System.out.println("Concatenated String: " + concatenated);
+
+        // 2. Length
+        int length = concatenated.length();
+        System.out.println("Length of Concatenated String: " + length);
+
+        // 3. Substring
+        String sub = concatenated.substring(0, 5); // from index 0 to 4
+        System.out.println("Substring (0 to 5): " + sub);
+
+        // 4. Character Extraction
+        char ch = concatenated.charAt(6); // character at index 6
+        System.out.println("Character at index 6: " + ch);
+    }
+}
